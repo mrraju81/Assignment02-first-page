@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.heading-text{
+    background-image: url(../images/Neymar-PSG-PNG-Clipart.png);
+    
+    background-repeat: no-repeat;
+    background-size:  450px 500px;
+    background-position-x: right;
+   
+    
+}
+ .heading-text{
+   height: 500px;
+   width: 80%;
+   background-color:#161616;
+   margin-left: 120px;
+   margin-top: 50px;
+   border-radius: 30px;
+   
+    
+} 
+.heading-text h1{
+    color: aliceblue;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 400px;
+    font-size: 40px;
+
+
+}
+.heading-text p{
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 500px;
+}
+.btn{
+    margin-top: 20px;
+   margin-left: 50px;
+   height: 40px;
+   width: 150px;
+   border: none;
+   background-color: #e62020;
+   color: white;
+   font-size: 18px;
+   
+}
+.btn i{
+    margin-left: 15px;
+}
+.side-boxes{
+    height: 250px;
+    width: 300px;
+    background-color:#161616;
+    margin-left: 120px;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+    
+}
+input{
+    margin-top: 30px;
+    border: none;
+    height: 50px;
+    width: 220px;
+    margin-left: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+    
+    background-color: aliceblue;
+}
+input::placeholder{
+    color: black;
+}
+.last-box{
+    background-color: #e62020;
+    
+}
+.last-box::placeholder{
+    color: blanchedalmond;
+}
+.box{
+    height: 350px;
+    width: 300px;
+    background-color: gray;
+}
+.box button{
+    margin-left: 35px;
+    width:100px;
+    height: 30px;
+}
+.box img{
+    height: 150px;
+    width: 220px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.box h3{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.box i{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+    width: 50%;
+    
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: #161616;
+}
+footer h2{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+   
+} 
+footer hr{
+    margin-top: 50px;
+} 
+.footer-tags {
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-tags a{
+    margin-left: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+}      
+   
+   
+
+
+
